@@ -59,6 +59,5 @@ public class NutritionFacts {
     public static void main(String[] args) {
         NutritionFacts whey = new NutritionFacts.Builder(30, 1)
             .calories(177).fat(1).carbs(20).build();
-        System.out.println(whey.servingSize);
     }
 }
